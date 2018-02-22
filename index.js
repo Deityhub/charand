@@ -1,6 +1,6 @@
 module.exports = {
 	
-	lowGen: (num)=>{
+	lowGen: (num = 15)=>{
 		//Generates random characters which are lowercase alphanumeric characters
 		var input = "abcdefghijklmnopqrstuvwxyz0123456789";
 		var output = "";
@@ -10,7 +10,7 @@ module.exports = {
 		return output;
 	},
 
-	highGen: (num)=>{
+	highGen: (num = 15)=>{
 		//Generates random characters which are uppercase alphanumeric characters
 		var input = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 		var output = "";
@@ -20,7 +20,7 @@ module.exports = {
 		return output;
 	},
 
-	allGen: (num)=>{
+	allGen: (num = 15)=>{
 		//Generates random characters 
 		//which are a combination of both uppercase and lowercase alphanumeric characters
 		var input = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -31,7 +31,7 @@ module.exports = {
 		return output;
 	},
 
-	charGen: (num)=>{
+	charGen: (num = 15)=>{
 		//Generates random characters
 		var input = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+[]{}:',./<>";
 		var output = "";
