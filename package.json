@@ -1,7 +1,7 @@
 {
   "name": "charand",
   "version": "1.0.0",
-  "description": "A simple node package that generates random character of any given length",
+  "description": "A node package that generates random character of any given length which a user can also use as a password",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
