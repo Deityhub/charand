@@ -53,4 +53,4 @@ random.allGen(9);
 > This node package can also be utilized in the creation of strong passwords. By making use of the **allGen** method
 
 ### what next?
-lets meet on [twitter](https://twitter.com/alphakoder) for more updates
+lets meet on [twitter](https://twitter.com/jude_ojini) for more updates
